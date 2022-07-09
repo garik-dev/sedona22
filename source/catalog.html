@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Academy: Седона</title>
+</head>
+
+<body class="page__body">
+  <header class="page-header">
+    <a class="page-header__logo" href="#">
+      <img class="page-header__logo-image" src="img/logotype-mobile.svg" width="102" height="84" alt="Логотип: Седона">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <div class="main-nav__wrapper"></div>
+      <ul class="main-nav__item main-nav__list">
+        <li class="main-nav__item">
+          <a href="index.html">Главная</a>
+        </li>
+        <li class="main-nav__item main-nav__item--active">
+          <a>Фото и видео</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="form.html">Форма отзыва</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="https://htmlacademy.ru/profession/frontender">HTML Academy</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="page-header__banner">
+      <img src="img/text-index.svg" width="282" height="214" alt="Добро пожаловать в Седону">
+    </div>
+  </header>
+  <main class="page-main">
+    <section class="description">
+      <h1 class="description__title">Фото и видео</h1>
+      <p class="description__text">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике</p>
+    </section>
+    <section class="gallery">
+      <h2 class="visually-hidden gallery__title">Фотографии Седоны</h2>
+      <div class="gallery-photo">
+        <a href="#">
+          <img class="gallery__img" width="280" height="280" src="img/photo1.jpg" alt="Закат на въезде в Седону">
+        </a>
+        <h3 class="gallery-photo__title">Неродные просторы</h3>
+        <p class="gallery-photo__autor">Автор фото: Борис</p>
+        <p class="gallery-photo__likes">1350</p>
+      </div>
+      <div class="gallery-photo">
+        <a href="#">
+          <img class="gallery__img" width="280" height="280" src="img/photo2.jpg" alt="Цветущие кактусы на фоне гор">
+        </a>
+        <h3 class="gallery-photo__title">Местная растительность</h3>
+        <p class="gallery-photo__autor">Автор фото: Сергей</p>
+        <p class="gallery-photo__likes">143</p>
+      </div>
+      <div class="gallery-photo">
+        <a href="#">
+          <img class="gallery__img" width="280" height="280" src="img/photo3.jpg" alt="Дорога на север">
+        </a>
+        <h3 class="gallery-photo__title">Дорога на север</h3>
+        <p class="gallery-photo__autor">Автор фото: Петр</p>
+        <p class="gallery-photo__likes">96</p>
+      </div>
+      <div class="gallery-photo">
+        <a href="#">
+          <img class="gallery__img" width="280" height="280" src="img/photo4.jpg" alt="Каменный мост">
+        </a>
+        <h3 class="gallery-photo__title">Мост дьявола</h3>
+        <p class="gallery-photo__autor">Автор фото: Антон</p>
+        <p class="gallery-photo__likes">254</p>
+      </div>
+    </section>
+    <section class="no-doubts">
+      <div class="header">
+        <h2 class="header__title">Все еще сомневаетесь?</h2>
+        <p class="header__description">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!
+        </p>
+      </div>
+      <video class="no-doubts__video" controls="controls" poster="img/video.jpg" width="320" height="200">
+        <source src="#">
+      </video>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <p class="page-footer__item hachtag">#VisitSedona</p>
+      <div class="page-footer__social social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--tweeter" href="#">
+              <span class="visually-hidden">Твиттер</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--tweeter" href="#">
+              <span class="visually-hidden">Фейсбук</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="#">
+              <span class="visually-hidden">Ютуб</span>
+            </a>
+          </li>
+        </ul>
+        <div class="page-footer__copyright"></div>
+        <p class="copyright-text">Разработано</p>
+        <a class="copyright-text" href="https://htmlacademy.ru/profession/frontender/">
+          <img src="img/htmlacademy.svg" alt="Логотип html академии">
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
